@@ -28,7 +28,7 @@
       <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo">
       <ul class="personal-info">
         {% if site.phone_number %}
-        <li><a aria-label="My Phone">
+        <li><a aria-label="My Phone" href="https://wa.me/{{ site.phone_number }}">
           <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
           <div><span>{{ site.phone_number }}</span></div>
         </a></li>
@@ -140,7 +140,7 @@
   </div>
   <div id="footer">
     <span>
-      Copyright © 2024 | <a href="https://github.com/byanko55">Yankos</a>
+      Copyright © 2024</a>
     </span>
   </div>
 </body>
